@@ -1,0 +1,16 @@
+main: github.r3tuxn.HologramUtility
+version: 1.0
+api-version: 1.12.2
+name: Hologram-Utility
+author: R3tuxn
+depend: [HolographicDisplays]
+
+commands:
+  sethologram:
+    description: place a hologram to players position
+    permission: hologramUtility.set
+    usage: /sethologram <name>
+  hreload:
+    description: Reload config and holograms
+    permission: hologramUtility.reload
+    usage: /hreload
