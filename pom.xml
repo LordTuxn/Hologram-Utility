@@ -4,9 +4,35 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.hologramUtility</groupId>
+    <groupId>io.github.r3tuxn</groupId>
     <artifactId>Hologram-Utility</artifactId>
     <version>1.0</version>
+
+    <name>Hologram-Utility</name>
+    <description>A simple library for the HolographicDisplays plugin.</description>
+    <url>https://github.com/LordTuxn/Hologram-Utility</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>R3tuxn</name>
+            <email>r3tuxn@gmail.com</email>
+            <organization>Alps BTE</organization>
+            <organizationUrl>https://alps-bte.com/</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/LordTuxn/Hologram-Utility.git</connection>
+        <developerConnection>scm:git:ssh://github.com:LordTuxn/Hologram-Utility.git</developerConnection>
+        <url>https://github.com/LordTuxn/Hologram-Utility</url>
+    </scm>
 
     <repositories>
         <!-- Spigot & Bukkit API -->
